@@ -1,0 +1,27 @@
+LIBRARY gostcsp
+
+EXPORTS
+    CPAcquireContext
+    CPCreateHash
+    CPDecrypt
+    CPDestroyHash
+    CPDestroyKey
+    CPDuplicateHash
+    CPDuplicateKey
+    CPEncrypt
+    CPExportKey
+    CPGenKey
+    CPGenRandom
+    CPGetHashParam
+    CPGetKeyParam
+    CPGetProvParam
+    CPGetUserKey
+    CPHashData
+    CPHashSessionKey
+    CPImportKey
+    CPReleaseContext
+    CPSetHashParam
+    CPSetKeyParam
+    CPSetProvParam
+    CPSignHash
+    CPVerifySignature
