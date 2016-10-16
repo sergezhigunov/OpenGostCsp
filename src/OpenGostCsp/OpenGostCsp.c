@@ -1,5 +1,5 @@
 #include "stdafx.h"
-#include "gostcsp.h"
+#include "OpenGostCsp.h"
 
 BOOL WINAPI CPAcquireContext(HCRYPTPROV * phProv, CHAR * pszContainer, DWORD dwFlags, PVTableProvStruc pVTable)
 {

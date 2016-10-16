@@ -1,4 +1,4 @@
-LIBRARY gostcsp
+LIBRARY OpenGostCsp
 
 EXPORTS
     CPAcquireContext
