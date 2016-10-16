@@ -1,2 +1,3 @@
-# Gost CSP
-This repository stores unoffical Cryptographic Provider implementation of modern Russian national standard cryptographic algorithms
+# Gost Cryptographic Service Provider
+
+This repository stores open-source Cryptographic Provider implementation of modern Russian national standard cryptographic algorithms
