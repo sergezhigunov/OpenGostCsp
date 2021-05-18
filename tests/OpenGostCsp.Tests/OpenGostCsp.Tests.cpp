@@ -4,7 +4,7 @@
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace OpenGostCspTests
+namespace OpenGostCsp::Tests
 {
 	TEST_CLASS(OpenGostCspTests)
 	{
