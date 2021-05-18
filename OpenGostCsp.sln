@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.6.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DD433A15-7C2C-446C-A99E-4D4A544BDB95}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9BC20F80-C437-42E1-A14D-A087752943E9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8E536C11-3C27-4651-B127-2CC9B9E22182}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D7B90D9E-0694-46C9-9905-74A932DE7AB3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGostCsp", "src\OpenGostCsp\OpenGostCsp.vcxproj", "{BB372414-195C-4D96-8E81-F567659D0414}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGostCsp", "src\OpenGostCsp\OpenGostCsp.vcxproj", "{DB88C17F-940B-4D60-966F-E7BFD549FE49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGostCsp.Tests", "tests\OpenGostCsp.Tests\OpenGostCsp.Tests.vcxproj", "{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,19 +19,31 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BB372414-195C-4D96-8E81-F567659D0414}.Debug|x64.ActiveCfg = Debug|x64
-		{BB372414-195C-4D96-8E81-F567659D0414}.Debug|x64.Build.0 = Debug|x64
-		{BB372414-195C-4D96-8E81-F567659D0414}.Debug|x86.ActiveCfg = Debug|Win32
-		{BB372414-195C-4D96-8E81-F567659D0414}.Debug|x86.Build.0 = Debug|Win32
-		{BB372414-195C-4D96-8E81-F567659D0414}.Release|x64.ActiveCfg = Release|x64
-		{BB372414-195C-4D96-8E81-F567659D0414}.Release|x64.Build.0 = Release|x64
-		{BB372414-195C-4D96-8E81-F567659D0414}.Release|x86.ActiveCfg = Release|Win32
-		{BB372414-195C-4D96-8E81-F567659D0414}.Release|x86.Build.0 = Release|Win32
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Debug|x64.ActiveCfg = Debug|x64
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Debug|x64.Build.0 = Debug|x64
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Debug|x86.Build.0 = Debug|Win32
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Release|x64.ActiveCfg = Release|x64
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Release|x64.Build.0 = Release|x64
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Release|x86.ActiveCfg = Release|Win32
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49}.Release|x86.Build.0 = Release|Win32
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Debug|x64.ActiveCfg = Debug|x64
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Debug|x64.Build.0 = Debug|x64
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Debug|x86.Build.0 = Debug|Win32
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Release|x64.ActiveCfg = Release|x64
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Release|x64.Build.0 = Release|x64
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Release|x86.ActiveCfg = Release|Win32
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BB372414-195C-4D96-8E81-F567659D0414} = {DD433A15-7C2C-446C-A99E-4D4A544BDB95}
+		{DB88C17F-940B-4D60-966F-E7BFD549FE49} = {9BC20F80-C437-42E1-A14D-A087752943E9}
+		{BF1C0C5A-CF6B-40C6-B836-0AF4A38921FD} = {D7B90D9E-0694-46C9-9905-74A932DE7AB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB83A71-562A-40C2-86E5-FD1B10906F6B}
 	EndGlobalSection
 EndGlobal
