@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #ifdef OPENGOSTCSP_EXPORTS
 #define OPENGOSTCSP_API extern "C" __declspec(dllexport)
@@ -17,23 +17,23 @@ typedef void(*CRYPT_RETURN_HWND)(HWND *phWnd);
 #pragma region Struct definition
 
 typedef struct _VTableProvStruc {
-    DWORD                Version;
+    DWORD Version;
     CRYPT_VERIFY_IMAGE_A FuncVerifyImage;
-    CRYPT_RETURN_HWND    FuncReturnhWnd;
-    DWORD                dwProvType;
-    BYTE                *pbContextInfo;
-    DWORD                cbContextInfo;
-    LPSTR                pszProvName;
+    CRYPT_RETURN_HWND FuncReturnhWnd;
+    DWORD dwProvType;
+    BYTE *pbContextInfo;
+    DWORD cbContextInfo;
+    LPSTR pszProvName;
 } VTableProvStruc, *PVTableProvStruc;
 
 typedef struct _VTableProvStrucW {
-    DWORD                Version;
+    DWORD Version;
     CRYPT_VERIFY_IMAGE_W FuncVerifyImage;
-    CRYPT_RETURN_HWND    FuncReturnhWnd;
-    DWORD                dwProvType;
-    BYTE                *pbContextInfo;
-    DWORD                cbContextInfo;
-    LPWSTR               pszProvName;
+    CRYPT_RETURN_HWND FuncReturnhWnd;
+    DWORD dwProvType;
+    BYTE *pbContextInfo;
+    DWORD cbContextInfo;
+    LPWSTR pszProvName;
 } VTableProvStrucW, *PVTableProvStrucW;
 
 typedef struct {

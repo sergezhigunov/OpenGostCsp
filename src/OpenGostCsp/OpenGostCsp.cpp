@@ -1,4 +1,4 @@
-// OpenGostCsp.cpp : Defines the exported functions for the DLL.
+﻿// OpenGostCsp.cpp : Defines the exported functions for the DLL.
 //
 
 #include "pch.h"
@@ -234,7 +234,7 @@ OPENGOSTCSP_API BOOL WINAPI CPSignHash(
 OPENGOSTCSP_API BOOL WINAPI CPVerifySignature(
     _In_  HCRYPTPROV hProv,
     _In_  HCRYPTHASH hHash,
-    _In_  const BYTE* pbSignature,
+    _In_  const BYTE *pbSignature,
     _In_  DWORD dwSigLen,
     _In_  HCRYPTKEY hPubKey,
     _In_  LPCWSTR sDescription,
