@@ -1,0 +1,19 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/OpenGostCsp/OpenGostCsp.vcxproj" Id="db88c17f-940b-4d60-966f-e7bfd549fe49" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OpenGostCsp.Tests/OpenGostCsp.Tests.vcxproj" Id="bf1c0c5a-cf6b-40c6-b836-0af4a38921fd" />
+  </Folder>
+</Solution>
